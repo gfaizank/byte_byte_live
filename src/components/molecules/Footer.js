@@ -28,19 +28,19 @@ export default function Footer() {
             <div className=" relative gap-6 sm:pl-[250px] grid text-center sm:w-full sm:grid-cols-4 sm:text-left">
                 <span className=" absolute left-[63px] top-[-85px] sm:text-[190px] font-[500] text-transparent bg-gradient-to-r bg-clip-text from-[#47A2DF] to-[#B40FE7]" style={{ backgroundImage: 'linear-gradient(167.14deg, #47A2DF -24.69%, #B40FE7 174.64%)' }}>{'{'}</span>
                 <ul className="flex flex-col items-start gap-3 text-[14px] font-[400] dark:text-white">
-                    <li className="text-[#000000] sm:text-[18px] font-[700] dark:text-white">Company</li>
-                    <l1>About Us</l1>
-                    <l1>Blog</l1>
-                    <l1>Career</l1>
-                    <l1>Hire top talent</l1>
-                    <l1>Contact Us</l1>
+                    <li className="text-[#000000] dark:text-white">Company</li>
+                    <l1 className="text-[#000000] dark:text-white">About Us</l1>
+                    <l1 className="text-[#000000] dark:text-white">Blog</l1>
+                    <l1 className="text-[#000000] dark:text-white">Career</l1>
+                    <l1 className="text-[#000000] dark:text-white">Hire top talent</l1>
+                    <l1 className="text-[#000000] dark:text-white">Contact Us</l1>
                 </ul>
                 <ul className="flex flex-col items-start gap-3 text-[14px] font-[400] dark:text-white">
                     <li className="text-[#000000] sm:text-[18px] font-[700] dark:text-white">Services</li>
-                    <l1>Project Management</l1>
-                    <l1>UI/UX Design</l1>
-                    <l1>Mobile App Development</l1>
-                    <l1>Web Development</l1>
+                    <l1 className="text-[#000000] dark:text-white">Project Management</l1>
+                    <l1 className="text-[#000000] dark:text-white">UI/UX Design</l1>
+                    <l1 className="text-[#000000] dark:text-white">Mobile App Development</l1>
+                    <l1 className="text-[#000000] dark:text-white">Web Development</l1>
                 </ul>
                 <ul className="flex flex-col items-start gap-3 text-[14px] font-[400] dark:text-white">
                     <li className="text-[#000000] sm:text-[18px] font-[700] dark:text-white">Address</li>
@@ -52,7 +52,7 @@ export default function Footer() {
                             height={32}
                             className="dark:filter dark:brightness-0 dark:invert dark:grayscale-100"
                         />
-                        <p>Unit 602, tower-4, assotech business cresterra, noida,uttar pradesh</p>
+                        <p className="text-[#000000] dark:text-white">Unit 602, tower-4, assotech business cresterra, noida,uttar pradesh</p>
                     </l1>
                     <l1 className="flex gap-3 items-start">
                         <Image
@@ -62,7 +62,7 @@ export default function Footer() {
                             height={20}
                             className="dark:filter dark:brightness-0 dark:invert dark:grayscale-100"
                         />
-                        <p>hello@bytive.in</p>
+                        <p className="text-[#000000] dark:text-white">hello@bytive.in</p>
                     </l1>
                     <l1 className="flex gap-3 items-start">
                         <Image
@@ -72,7 +72,7 @@ export default function Footer() {
                             height={20}
                             className="dark:filter dark:brightness-0 dark:invert dark:grayscale-100"
                         />
-                        <p>+91 7684592145</p>
+                        <p className="text-[#000000] dark:text-white">+91 7684592145</p>
                     </l1>
                 </ul>
             </div>

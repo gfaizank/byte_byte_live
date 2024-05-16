@@ -13,7 +13,7 @@ import TrapBgImage from "icon/mainTrapbg.svg"
 
 const Home = () => {
   return (
-    <main className="bg-[#cde8fb] relative flex flex-col justify-center 
+    <main className="bg-[#cde8fb] z-50 relative flex flex-col justify-center 
     items-center py-[30px] overflow-hidden  dark:bg-black"
     // style={{ background: 'linear-gradient(to right, #5BF7E8, #DEA6EF, #0C3CF7)'}}
     >

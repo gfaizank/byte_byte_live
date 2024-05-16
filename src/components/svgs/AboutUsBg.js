@@ -3,7 +3,8 @@ const AboutUsBg = (props) => {
     return (
         <svg
             xmlns="http://www.w3.org/2000/svg"
-            width={382}
+            width={350}
+            className="lg:w-[382px]"
             height={635}
             fill="none"
             {...props}
