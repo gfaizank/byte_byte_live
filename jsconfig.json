@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["./src/*"],
+      "store/*": [
+        "./src/store/features/*"
+      ],
+      "image/*": [
+        "./public/images/*"
+      ],
+      "icon/*": [
+        "./public/icons/*"
+      ],
+      "molecule/*": [
+        "./src/components/molecules/*"
+      ],
+      "atom/*": [
+        "./src/components/atoms/*"
+      ]
+    }
+  }
+}
